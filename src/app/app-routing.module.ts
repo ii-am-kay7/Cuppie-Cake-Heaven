@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { RenderMode, ServerRoute } from '@angular/ssr';
 
-// Import your page components
+// Imported page components
 import { Home } from './pages/home/home';
 import { About } from './pages/about/about';
 import { Menu } from './pages/menu/menu';

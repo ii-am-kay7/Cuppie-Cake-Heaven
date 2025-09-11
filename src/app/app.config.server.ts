@@ -1,4 +1,3 @@
-// src/app/app.config.server.ts
 import { mergeApplicationConfig, ApplicationConfig } from '@angular/core';
 import { provideServerRendering, withRoutes, RenderMode, ServerRoute } from '@angular/ssr';
 import { appConfig } from './app.config';
