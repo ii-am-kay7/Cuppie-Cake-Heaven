@@ -1,12 +1,12 @@
-import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+// src/app/app.component.ts
+import { Component } from '@angular/core';
+import { RouterModule } from '@angular/router';
+import { routes } from './app-routing.module';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']  
+  standalone: true,
+  imports: [RouterModule],
+  template: `<router-outlet></router-outlet>`
 })
-export class AppComponent {        
-  protected readonly title = signal('cuppie-cakes-heaven');
-}
+export class AppComponent {}
