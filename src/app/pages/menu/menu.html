@@ -1,1 +1,10 @@
-<p>menu works!</p>
+<section class="menu" id="menu">
+  <h2>Menu / Products</h2>
+  <div class="menu-items">
+    <div class="menu-item" *ngFor="let item of menuItems">
+      <img [src]="item.img" [alt]="item.name" />
+      <h3>{{ item.name }}</h3>
+      <p>{{ item.description }}</p>
+    </div>
+  </div>
+</section>

@@ -4,99 +4,15 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Cuppie Cakes Heaven</title>
-
-
 </head>
+
 <body>
 
-  <!-- Header with logo and navigation -->
-  <header>
-  <img src="assets/images/logo.jpeg" alt="Cuppie Cakes Heaven Logo" class="logo" />
-  <nav>
-    <a routerLink="/">Home</a>
-    <a routerLink="/about">About</a>
-    <a routerLink="/menu">Menu</a>
-    <a routerLink="/gallery">Gallery</a>
-    <a routerLink="/contact">Contact</a>
-  </nav>
-
-  </header>
-
-  <!-- Hero section -->
-  <section class="hero" id="home">
-    <h1>Where Every Bite Feels Like Heaven</h1>
-    <button onclick="window.location.href='https://wa.me/0683923875'">Order Now on WhatsApp</button>
-  </section>
-
-  <!-- About Us -->
-  <section class="about" id="about">
-    <h2>About Us</h2>
-    <p>Cuppie Cakes Heaven was born from a passion for baking. Every cake, cupcake, and dessert is handmade with love to make your special moments sweeter.</p>
-    <!-- <img src="images/mom-baking.jpg" alt="Mom baking or with her creations" />  -->
-  </section>
-
-  <!-- Menu / Products -->
-  <section class="menu" id="menu">
-    <h2>Menu / Products</h2>
-    <div class="menu-items">
-      <div class="menu-item">
-        <img src="assets/images/choccake.jpeg" alt="Cakes" /> 
-        <h3>Cakes</h3>
-        <p>Custom birthday, wedding, special occasions. Starting from R___</p>
-      </div>
-      <div class="menu-item">
-        <img src="assets/images/cupcakes1.jpeg" alt="Cupcakes" />
-        <h3>Cupcakes</h3>
-        <p>Classic, themed, assorted. Contact for quote.</p>
-      </div>
-      <div class="menu-item">
-        <img src="assets/images/dessert1.jpeg" alt="Desserts" />
-        <h3>Desserts</h3>
-        <p>Cheesecakes, puddings, treats. Contact for quote.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Gallery -->
-  <section class="gallery" id="gallery">
-    <h2>Gallery</h2>
-    <div class="gallery-grid">
-      <img src="assets/images/choc-cake2.jpeg" alt="Gallery image 1" />
-      <img src="assets/images/rose-cake.jpeg" alt="Gallery image 2" />
-      <img src="assets/images/dessert1.jpeg" alt="Gallery image 3" />
-      <img src="assets/images/dessert2.jpeg" alt="Gallery image 4" />
-      <img src="assets/images/dessert3.jpeg" alt="Gallery image 5" />
-      <img src="assets/images/dessert4.jpeg" alt="Gallery image 6" />
-      <img src="assets/images/dessert5.jpeg" alt="Gallery image 7" />
-      <img src="assets/images/dessert6.jpeg" alt="Gallery image 8" />
-      <img src="assets/images/dessert7.jpeg" alt="Gallery image 9" />
-
-    </div>
-  </section>
-
-  <!-- Testimonials -->
-  <section class="testimonials" id="testimonials">
-    <h2>Testimonials</h2>
-    <div class="testimonial">
-      “Best cupcakes ever! Fresh and delicious – highly recommend.”
-    </div>
-    <div class="testimonial">
-      “She made my daughter’s birthday cake, it was both beautiful and tasty.”
-    </div>
-    <!-- ADD MORE TESTIMONIALS -->
-  </section>
-
-  <!-- Contact / Order -->
-  <section class="contact" id="contact">
-    <h2>Contact / Order</h2>
-    <button onclick="window.location.href='https://wa.me/0683923875'">Order Now on WhatsApp</button>
-    <p>Phone: 0683923875</p>
-    <p>Email: hello@cuppiecakesheaven.com</p> 
-    <div class="social-links">
-      <!-- <a href="https://instagram.com" target="_blank"><img src="assets/images/instagram.png" alt="Instagram"></a> REPLACE LINK/ICON -->
-      <!-- <a href="https://facebook.com" target="_blank"><img src="assets/images/facebook.png" alt="Facebook"></a> REPLACE LINK/ICON -->
-    </div>
-  </section>
 <router-outlet></router-outlet>
+<app-menu></app-menu>
+<app-gallery></app-gallery>
+<app-testimonials></app-testimonials>
+<app-contact></app-contact>
+
 </body>
 </html>

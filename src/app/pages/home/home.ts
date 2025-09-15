@@ -7,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './home.css'
 })
 export class Home {
-
+    orderOnWhatsApp() {
+  window.location.href = 'https://wa.me/0683923875';
+  }
 }

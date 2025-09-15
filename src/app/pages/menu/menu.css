@@ -1,0 +1,16 @@
+.menu-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.menu-item {
+  text-align: center;
+  max-width: 250px;
+}
+
+.menu-item img {
+  width: 100%;
+  border-radius: 12px;
+}
