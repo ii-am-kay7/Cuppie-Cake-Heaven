@@ -1,0 +1,133 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #D8BFD8; /* pastel purple background */
+  color: #1A1A2E; /* dark text for contrast */
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: #FFC0CB; /* pastel pink header */
+  border-bottom: 2px solid #D8BFD8; /* pastel purple accent */
+}
+
+header img.logo {
+  max-height: 60px;
+}
+
+nav a {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  color: #1A1A2E; /* dark links for contrast */
+  font-weight: 500;
+}
+
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: #FFC0CB; /* pastel pink text on hero */
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(26,26,46,0.3); /* subtle shadow */
+}
+
+.hero button {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  background-color: #FFC0CB; /* pastel pink button */
+  color: #1A1A2E; /* dark text */
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+section {
+  padding: 3rem 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #1A1A2E; /* dark headings */
+}
+
+.about, .menu, .gallery, .testimonials, .contact {
+  margin-bottom: 3rem;
+}
+
+.about img {
+  max-width: 200px;
+  border-radius: 50%;
+  display: block;
+  margin: 1rem auto;
+}
+
+.menu-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.menu-item {
+  text-align: center;
+  max-width: 250px;
+}
+
+.menu-item img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.gallery-grid img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.testimonial {
+  background-color: #FFC0CB; /* pastel pink background */
+  color: #1A1A2E; /* dark text */
+  padding: 1rem 2rem;
+  margin: 1rem auto;
+  border-radius: 12px;
+  max-width: 600px;
+  text-align: center;
+}
+
+.contact button {
+  background-color: #FFC0CB; /* pastel pink background */
+  color: #1A1A2E; /* dark text */
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.social-links a img {
+  width: 30px;
+  height: 30px;
+}
