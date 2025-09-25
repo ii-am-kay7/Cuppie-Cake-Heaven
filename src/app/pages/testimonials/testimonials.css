@@ -1,6 +1,6 @@
 .testimonial {
-  background-color: #FFC0CB; /* pastel pink background */
-  color: #1A1A2E; /* dark text */
+  background-color: #FFC0CB;
+  color: #1A1A2E; 
   padding: 1rem 2rem;
   margin: 1rem auto;
   border-radius: 12px;
@@ -8,3 +8,10 @@
   text-align: center;
 }
 
+h1, h2, h3 {
+  text-align: center;
+  font-size: 2.2rem;  
+  font-weight: bold;
+  margin: 1.5rem 0;
+  color: #333;       
+}

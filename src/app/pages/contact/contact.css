@@ -1,32 +1,59 @@
+.contact {
+  text-align: center;
+  margin: 3rem 0;
+}
+
 .contact button {
-  background-color: #FFC0CB; /* pastel pink background */
-  color: #1A1A2E; /* dark text */
+  background-color: #FFC0CB;
+  color: #1A1A2E;
   font-size: 1.2rem;
   padding: 1rem 2rem;
   border: none;
   border-radius: 30px;
   cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 2rem;
+}
+
+.contact button:hover {
+  background-color: #ffb6c1;
+  transform: scale(1.05);
 }
 
 .contact a {
-  color: #c9478e; /* Chocolate color, you can change to any color you like */
-  font-weight: bold; /* Optional: make it stand out */
-  transition: color 0.3s; /* Smooth color change on hover */
+  color: #c9478e;
+  font-weight: bold;
+  transition: color 0.3s;
+  display: block;
+  margin-bottom: 1.5rem;
 }
 
 .contact a:hover {
-  color: #ff69b4; /* Change color on hover, optional */
-  text-decoration: underline; /* Optional hover effect */
+  color: #ff69b4;
+  text-decoration: underline;
 }
 
 .social-links {
   display: flex;
   justify-content: center;
-  gap: 1rem;
-  margin-top: 1rem;
+  gap: 1.5rem;
+  margin-top: 2rem;
 }
 
 .social-links a img {
-  width: 30px;
-  height: 30px;
+  width: 28px;
+  height: 28px;
+  transition: transform 0.3s;
+}
+
+.social-links a img:hover {
+  transform: scale(1.2);
+}
+
+h1, h2, h3 {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin: 1.5rem 0;
+  color: #333;
 }
