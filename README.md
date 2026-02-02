@@ -1,20 +1,32 @@
-🍰 Cuppie Cakes Heaven
+# 🍰 Cuppie-Cake-Heaven
 
-A sweet and modern bakery website built with Angular to showcase cakes, cupcakes, and desserts. The site highlights the story behind Cuppie Cakes Heaven, displays a product menu, and provides an easy way for customers to connect and place orders.
+## 📌 Project Overview
+Cuppie-Cake-Heaven is a demo bakery website built with Angular to showcase my mom's cakes, cupcakes, and desserts. The project demonstrates responsive front-end design, interactive UI, and user-friendly navigation. It was created as a learning project to strengthen my Angular and web development skills.
 
-✨ Features
+## 🚀 Features
+- Home page with featured desserts
+- Menu section displaying bakery products
+- Image gallery of desserts
+- Testimonials section for customer feedback
+- Fully responsive layout for mobile and desktop
 
-🏠 Home Page – Welcome banner with tagline & call-to-action
-💕 About Us – Story of Cuppie Cakes Heaven
-🎂 Menu – Cakes, cupcakes, desserts with images & details
-📸 Gallery – Showcase of baked goodies
-🌟 Testimonials – Customer love & feedback
-📞 Contact – WhatsApp button, phone, and email links
-📱 Responsive Design – Works on desktop and mobile
-🛠️ Tech Stack
+## 🛠 Tech Stack
+- Angular  
+- TypeScript  
+- HTML / CSS  
 
-Framework: Angular 17+
+## ⚙ Installation & Setup
+# Clone the repo
+git clone https://github.com/ii-am-kay7/Cuppie-Cake-Heaven.git
 
-Styling: CSS / SCSS (optionally Bootstrap or Tailwind)
-Hosting: Firebase / Vercel / Netlify (easy deployment)
-Version Control: Git + GitHub
+# Navigate into the folder
+cd Cuppie-Cake-Heaven
+
+# Install dependencies
+npm install
+
+# Run the app
+ng serve
+
+# Open in browser
+http://localhost:4200
