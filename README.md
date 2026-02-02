@@ -16,17 +16,24 @@ Cuppie-Cake-Heaven is a demo bakery website built with Angular to showcase my mo
 - HTML / CSS  
 
 ## ⚙ Installation & Setup
-# Clone the repo
+1. Clone the repo
 git clone https://github.com/ii-am-kay7/Cuppie-Cake-Heaven.git
 
-# Navigate into the folder
+2. Navigate into the folder
 cd Cuppie-Cake-Heaven
 
-# Install dependencies
+3. Install dependencies
 npm install
 
-# Run the app
+4. Run the app
 ng serve
 
-# Open in browser
+5. Open in browser
 http://localhost:4200
+
+## 💡 What I Learned: 
+
+- Creating Angular components and services
+- Building responsive front-end layouts
+- Handling events and user interactions in Angular
+- Debugging and structuring a front-end project
